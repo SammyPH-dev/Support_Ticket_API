@@ -61,6 +61,11 @@ Support_Ticket_API/
 ├── main.py
 └── README.md
 ```
+## Flux de données
+
+Le diagramme suivant présente le cheminement des données pour chaque route, depuis le client jusqu’à la base de données SQLite.
+
+![Flux de données des routes](docs/flux-donnees-routes.png)
 
 ## Installation locale
 
