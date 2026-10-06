@@ -1,0 +1,64 @@
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+ENV/
+
+# Cache et fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution et empaquetage
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest et couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Vérificateurs de types et outils de qualité
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Bases de données et données locales
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+instance/
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# PyCharm et autres éditeurs
+.idea/
+.vscode/
+*.iml
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Docker local
+docker-compose.override.yml
